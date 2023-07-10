@@ -1,0 +1,14 @@
+@use "../utilities/mixins" as *;
+body{
+  background-image: url(../../images/emoji.jpg);
+}
+.h1{
+  font-family: 'Lobster Two', cursive;
+  background-color: black;
+  color: yellow;
+  font-size:4rem;
+  text-align: center;
+}
+.h2{
+  text-align: center;
+}

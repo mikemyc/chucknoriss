@@ -1,0 +1,32 @@
+@use "../utilities/mixins" as *;
+.main {
+  padding: 3em;
+  box-shadow: 2px 2px 4px black;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 12em;
+  &__button {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: 30%;
+    padding: 2em;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+
+    &__joke {
+      font-size: 2rem;
+      padding-top: 2em;
+      p {
+        padding-bottom: 1em;
+        padding: 2em;
+        color: blue;
+        font-family: "Lobster Two", cursive;
+      }
+    }
+  }
+}

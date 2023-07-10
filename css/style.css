@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(../../images/emoji.jpg);
+}
+
+.h1 {
+  font-family: "Lobster Two", cursive;
+  background-color: black;
+  color: yellow;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.main {
+  padding: 3em;
+  box-shadow: 2px 2px 4px black;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 12em;
+}
+.main__button {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  padding: 10px 20px;
+  width: 30%;
+  padding: 2em;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 2px 2px 4px black;
+  display: flex;
+}
+.main__button__joke {
+  font-size: 2rem;
+  padding-top: 2em;
+}
+.main__button__joke p {
+  padding-bottom: 1em;
+  padding: 2em;
+  color: blue;
+  font-family: "Lobster Two", cursive;
+}
